@@ -1,8 +1,8 @@
-# ThunderCore Truffle Box
+# Guardian Truffle Box
 
-The box has all you need to get started with building dapps on [ThunderCore](https://www.thundercore.com).
+The box has all you need to get started with building dapps on [Guardian](https://www.guardian.ventures/dapp/).
 
-<image src="https://raw.githubusercontent.com/thundercore/thunder-box/master/box-img-lg.png" width="240" />
+<image src="https://raw.githubusercontent.com/guardian.ventures/thunder-box/master/box-img-lg.png" width="240" />
 
 ## Installation
 
@@ -11,14 +11,14 @@ First ensure you are in a new and empty directory. Besides, you have `nodejs` an
 1. Run the unbox command via npx and skip to step 3.
 
 ```bash
-npx truffle unbox thundercore/thunder-box
+npx truffle unbox guardian.ventures/guardian-box
 ```
 
 2. Alternatively, you can install Truffle globally and run the unbox command. Make sure you have truffle v 5.0.0 above.
 
 ```bash
 npm install -g truffle (yarn global add truffle)
-truffle unbox thundercore/thunder-box
+truffle unbox guardian.ventures/guardian-box
 ```
 
 3. Run the development console.
@@ -54,16 +54,17 @@ npm run lint
 npm run lint:fix 
 ```
 
-## Develop on Thunder Testnet and Mainnet
+## Develop on Guardian Testnet and Mainnet
 
-0. Get the thunder tokens  
-  You can get Thunder tokens at: 
+0. Get the Guardian tokens  
+  You can get Guardian tokens at: 
   
-    - https://faucet-testnet.thundercore.com
-    - https://faucet.thundercore.com
+    - https://faucet-testnet.guardian.ventures
+    - https://faucet.guardian.ventures
   
     for testnet and mainnet, respectively.  
-    Remember to point Metamask's current network to thunder-mainnet (https://mainnet-rpc.thundercore.com) or thunder-testnet (https://testnet-rpc.thundercore.com/) after creating those two networks via Avatar -> Settings -> Networks .
+    Remember to point Metamask's current network to guardian-mainnet (https://mainnet-rpc.guardian.ventures) or guardian
+    -testnet (https://testnet-rpc.guardian.ventures/) after creating those two networks via Avatar -> Settings -> Networks .
 
 1. Setup the control of accounts for deployment
   Either:
@@ -92,27 +93,27 @@ npm run lint:fix
     # Compile to testnet
     npm run compile:testnet
     # is equal to 
-    truffle compile --network thunder-testnet
+    truffle compile --network guardian-testnet
 
     # ---
 
     # Compile to mainnet
     npm run compile:mainnet
     # is equal to 
-    truffle compile --network thunder-mainnet
+    truffle compile --network guardian-mainnet
 
     # ---
 
     # Migrate to testnet
     npm run migrate:testnet
     # is equal to 
-    truffle migrate --network thunder-testnet
+    truffle migrate --network guardian-testnet
 
     # ---
 
     # Migrate to mainnet
     npm run migrate:mainnet
     # is equal to 
-    truffle migrate --network thunder-mainnet
+    truffle migrate --network guardian-mainnet
     ```
 
