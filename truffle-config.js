@@ -13,8 +13,8 @@
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const fs = require("fs");
 
-const TESTNET_PROVIDER = "https://testnet-rpc.guardian.ventures.com";
-const MAINNET_PROVIDER = "https://mainnet-rpc.guardian.ventures.com";
+const TESTNET_PROVIDER = "https://testnet-rpc.guardian.ventures";
+const MAINNET_PROVIDER = "https://mainnet-rpc.guardian.ventures";
 
 let privateKeys = null;
 let mnemonic = null;
@@ -45,7 +45,7 @@ module.exports = {
         development: {
             host: "127.0.0.1", // Localhost (default: none)
             port: 9545, // Standard Ethereum port (default: none)
-            network_id: "*" // Any network (default: none)
+            network_id: "5" // Any network (default: none)
         },
         "guardian-testnet": {
             provider: () => {
