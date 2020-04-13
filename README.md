@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/guardian-ventures/guardian-box) 
+
 # Guardian Truffle Box
 
 The box has all you need to get started with building dapps on [Guardian](https://www.guardian.ventures/dapp/).
